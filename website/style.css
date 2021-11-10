@@ -1,0 +1,54 @@
+html{
+    font-size: 16px;
+    font-family: 'Oswald';
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.form{
+    width: 80%;
+    display: inline;
+}
+
+#formHolder{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.entry{
+    margin-top: 15px;
+    display: flex;
+    background-color: #222;
+    width: 100vw;
+    height: 1fr;
+    color: #999;
+}
+
+#entryHolder{
+    width: 100vw;
+    height: 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    font-size: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+}
